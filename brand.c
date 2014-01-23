@@ -12,8 +12,11 @@ int initializeMacToBrand(void) {
 	char * line = NULL;
 
 	fp = fopen("parse.txt", "r");
-	if (fp == NULL)
-	   exit(EXIT_FAILURE);
+	if (fp == NULL) {
+		fprintf(stderr, "Could not find parse.txt!");
+		exit(EXIT_FAILURE);
+
+	}
 
 	for (i = 0; i < 18971; i++) {
 		macToBrand[i][0] = readSegment(fp);
