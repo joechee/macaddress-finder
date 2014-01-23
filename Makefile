@@ -1,5 +1,5 @@
 all: network.c brand.c
-	gcc network.c brand.c -lwpcap -lgnurx -o test.exe
+	gcc network.c brand.c -lwpcap -lgnurx -o finder.exe
 
 
 clean:

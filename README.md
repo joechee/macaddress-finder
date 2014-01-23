@@ -16,7 +16,7 @@ Use
 1. Install winpcap
 2. Connect an ethernet cable between your machine and some other ethernet
    port
-3. Run the program and select the hardware interface from your machine
+3. Run finder.exe and select the hardware interface from your machine
 4. Take note of the MAC addresses that are printed. 
 
 Compile
